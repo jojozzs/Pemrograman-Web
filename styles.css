@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+nav{
+    display:flex;
+    width: 100%;
+    margin:auto;
+    padding : 20px 0;
+    justify-content: center;
+    align-items: center ;
+    background-color: dimgray;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style:none ;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: lightyellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+    flex:1;
+}
+
+nav ul li a:hover{
+    color:white;
+    background-color: coral;
+}
+
+.shortexp{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.shortexp h1{
+    font-size: 50px;
+    color:black;
+    margin-bottom:20px ;
+}
+
+.shortexp p{
+    color: dimgray;
+    line-height: 22px;
+}
+
+span{
+    color: chocolate;
+}
+
+.pics{
+    width: 45%;
+    height: 78%;
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+}
+
+.pics img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+#hobi {
+    background-color: #f9f9f9;
+    padding: 50px 8%;
+    text-align: center;
+}
+
+#hobi h2 {
+    font-size: 36px;
+    color: chocolate;
+    margin-bottom: 40px;
+}
+
+.hobi-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hobi-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.hobi-item img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.hobi-item h3 {
+    font-size: 24px;
+    color: chocolate;
+    margin: 15px 0;
+}
+
+.hobi-item p {
+    font-size: 16px;
+    color: dimgray;
+    padding: 0 15px 20px;
+}
+
+.hobi-item:hover {
+    transform: translateY(-10px);
+}
+
+#contact {
+    background-color: #f1f1f1;
+    padding: 50px 8%;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    color: chocolate;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.contact-item img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 16px;
+    color: dimgray;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.contact-item:hover {
+    transform: translateY(-10px);
+}
